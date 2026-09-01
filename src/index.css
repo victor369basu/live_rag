@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Outfit", "Plus Jakarta Sans", sans-serif;
+  
+  --color-brand-bg: #090B0F;
+  --color-panel-bg: #0F1219;
+  --color-card-bg: #161A23;
+  --color-border-dark: #222834;
+  --color-border-light: #323B4E;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease forwards;
+}
+
+/* Custom glow utility */
+.glow-emerald {
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.25);
+}
+.glow-blue {
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
+}
+.glow-amber {
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+/* Premium scrollbar styling for technical dashboard logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #222834;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #323B4E;
+}
+

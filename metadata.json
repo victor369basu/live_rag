@@ -1,0 +1,6 @@
+{
+  "name": "The Reasonable RAG",
+  "description": "An interactive end-to-end GraphRAG visualizer and reasoning engine system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
