@@ -13,6 +13,8 @@
 
 **An autonomous, self-optimizing Knowledge Graph RAG platform with multi-hop reasoning, verifiable provenance citations, real-time contradiction arbitration, and fact-attribution auditing.**
 
+The Living Graph is an auditable Knowledge GraphRAG system designed to eliminate AI hallucinations by grounding retrieval in deterministic knowledge networks. Instead of relying on opaque vector similarities, it ingests multi-format documents (PDF, CSV, JSON, Markdown), dynamically extracts semantic entities and typed relationships, and builds an interactive 3D knowledge graph with continuous background curation. When queried, it conducts multi-hop graph traversals, performs TF-IDF context reranking, and synthesizes verifiable answers with clickable citation badges. Every factual claim is directly traceable back to source text chunks, providing full lineage auditing, confidence scoring, and transparent reasoning.
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb.svg?style=flat-square&logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646cff.svg?style=flat-square&logo=vite)](https://vitejs.dev/)
