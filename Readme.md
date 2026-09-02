@@ -33,6 +33,11 @@
 
 
 ## Video demo
+
+Watch the full demo on YouTube: [https://youtu.be/pw9BETbNjt0](https://youtu.be/pw9BETbNjt0)
+
+[![Watch the Reasonable RAG demo](./assets/thumbnail.png)](https://youtu.be/pw9BETbNjt0)
+
 ## 📖 Table of Contents
 
 1. [Executive Overview & Why GraphRAG?](#-executive-overview--why-graphrag)
